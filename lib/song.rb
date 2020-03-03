@@ -10,9 +10,9 @@ class Song
     self.class.all << self 
   end
 
-  def self.create
-    song = self.new
-    self.all << song
+  def self.create #this is a class methof
+    song = self.new 
+    self.all << 
     song
   end
   
